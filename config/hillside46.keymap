@@ -166,7 +166,7 @@
                            &none &none &none &trans             &trans &none &none &none
       >;
 
-      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DOWN>;
+      sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
     };
 
   };
