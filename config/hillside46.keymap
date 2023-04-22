@@ -122,7 +122,7 @@
                                    &kp ESCAPE &kp TAB &kp SPACE &mo 2                  &mo 1 &lt 3 ENTER &kp BACKSPACE &kp DELETE
       >;
 
-      sensor-bindings = <&inc_dec_kp LC(LGUI(RIGHT)) LC(LGUI(LEFT))>;
+      sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
     };
 
     symbols_layer {
