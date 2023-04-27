@@ -135,7 +135,7 @@
     symbols_layer {
       bindings = <
         &none &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                                            &kp CARET &kp AMPS &kp ASTRK &kp UNDER &kp EQUAL &none
-        &none &kp GRAVE &kp LSHIFT &kp LBKT &kp LBRC &kp KP_LPAR                                     &kp KP_RPAR &kp RBRC &kp RBKT &kp RSHIFT &kp SQT &none
+        &none &kp GRAVE &kp LSHIFT &kp LBKT &kp LBRC &kp LPAR                                     &kp RPAR &kp RBRC &kp RBKT &kp RSHIFT &kp SQT &none
         &none &kp LCTRL &kp LGUI &kp LALT &kp TILDE &kp MINUS &caps_word               &kp LG(LS(S)) &kp KP_PLUS &kp BSLH &kp RALT &kp RGUI &kp RCTRL &none
                                               &trans &trans &trans &mo 4               &trans &trans &trans &trans
       >;
