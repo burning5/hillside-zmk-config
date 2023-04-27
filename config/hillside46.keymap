@@ -109,6 +109,13 @@
       tapping-term-ms = <200>;
       bindings = <&kp KP_ASTERISK>, <&kp F12>;
     };
+    tdCcp: tap_dance_copy_cut_paste {
+      compatible = "zmk,behavior-tap-dance";
+      label = "TD_CCP";
+      #binding-cells = <0>;
+      tapping-term-ms = <200>;
+      bindings = <&kp LC(V)>, <&kp LC(C)>, <&kp LC(X)>;
+    };
   };
 
   keymap {
@@ -118,7 +125,7 @@
       bindings = <
         &none &kp Q &kp W &kp E &kp R &kp T                                                                               &kp Y &kp U &kp I &kp O &kp P &none
         &none &kp A &mt LSHIFT S &kp D &kp F &kp G                                                         &kp H &kp J &kp K &mt RSHIFT L &kp SEMICOLON &none
-        &none &mt LCTRL Z &mt LGUI X &mt LALT C &kp V &kp B &kp LC(C)                  &kp LC(V) &kp N &kp M &mt RALT COMMA &mt RGUI DOT &mt RCTL SLASH &none
+        &none &mt LCTRL Z &mt LGUI X &mt LALT C &kp V &kp B &kp LC(C)                  &tdCcp &kp N &kp M &mt RALT COMMA &mt RGUI DOT &mt RCTL SLASH &none
                                    &kp ESCAPE &kp TAB &kp SPACE &mo 2                  &mo 1 &lt 3 ENTER &kp BACKSPACE &kp DELETE
       >;
 
@@ -160,9 +167,9 @@
 
     config_layer {
       bindings = <
-        &none &none &none &none &none &none                      &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
+        &none &none &none &none &none &bt BT_CLR                        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
         &none &none &none &none &none &none                                                  &none &none &none &none &none &none
-        &none &none &none &none &none &none &bt BT_CLR                                 &none &none &none &none &none &none &none
+        &none &none &none &none &none &none &kp N4                                      &none &none &none &none &none &none &none
                            &none &none &none &trans             &trans &none &none &none
       >;
 
