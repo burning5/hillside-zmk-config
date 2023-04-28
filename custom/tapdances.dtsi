@@ -108,4 +108,4 @@
       bindings = <&kp RPAR>, <&kp RBKT>, <&kp LS(RBKT)>;
     };
   };
-}
+};
