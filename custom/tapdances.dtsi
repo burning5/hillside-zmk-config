@@ -1,5 +1,3 @@
-#define TAPPING_TERM 150
-
 /{
   behaviors {
     TD1: tap_dance_1 {
