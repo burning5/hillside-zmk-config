@@ -114,7 +114,7 @@
 #define LT_ENT &lt 3 ENTER
 
 // bluetooth
-#define BT_CLR &bt BT_CLR
+#define BT_CLA &bt BT_CLR
 #define BT_SE0 &bt BT_SEL 0
 #define BT_SE1 &bt BT_SEL 1
 #define BT_SE2 &bt BT_SEL 2

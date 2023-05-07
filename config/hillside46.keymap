@@ -63,7 +63,7 @@
 
     config_layer {
       bindings = <
-        __XX__  __XX__  __XX__  __XX__  __XX__  BT_CLR                    BT_SE0  BT_SE1  BT_SE2  BT_SE3  BT_SE4  __XX__
+        __XX__  __XX__  __XX__  __XX__  __XX__  BT_CLA                    BT_SE0  BT_SE1  BT_SE2  BT_SE3  BT_SE4  __XX__
         __XX__  __XX__  __XX__  __XX__  __XX__  __XX__                    __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
         __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__    __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
                                 __XX__  __XX__  __XX__  _TRNS_    _TRNS_  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
