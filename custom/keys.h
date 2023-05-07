@@ -66,10 +66,10 @@
 #define KP_PLS &kp KP_PLUS
 #define KP_DT_ &kp KP_DOT
 
-#define KP_UP_ &kp UP
-#define KP_RIT &kp RIGHT
-#define KP_LFT &kp LEFT
-#define KP_DN_ &kp DOWN
+#define KP_AU_ &kp UP
+#define KP_AR_ &kp RIGHT
+#define KP_AL_ &kp LEFT
+#define KP_AD_ &kp DOWN
 
 
 // capsword
