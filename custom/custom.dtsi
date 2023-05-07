@@ -1,14 +1,10 @@
-#include "../custom/custom.h"
+#include "global.h"
+#include "mouse.h"
 
-#include "../custom/mouse.dtsi"
-#include "../custom/tapdances.dtsi"
+#include "global.dtsi"
+#include "mouse.dtsi"
+#include "tapdances.dtsi"
 
-&lt {
-  flavor = "tap-preferred";
-  tapping-term-ms = <TAPPING_TERM>;
-};
+#include "combos.dtsi"
 
-&mt {
-  flavor = "tap-preferred";
-  tapping-term-ms = <TAPPING_TERM>;
-};
+#include "keys.h"

@@ -96,14 +96,21 @@
       label = "tap_dance_left_bracket";
       #binding-cells = <0>;
       tapping-term-ms = <TAPPING_TERM>;
-      bindings = <&kp LPAR>, <&kp LBKT>, <&kp LS(LBKT)>;
+      bindings = <&kp LPAR>, <&kp LS(LBKT)>, <&kp LBKT>;
     };
     TD_RBKT: tap_dance_right_bracket {
       compatible = "zmk,behavior-tap-dance";
       label = "tap_dance_right_bracket";
       #binding-cells = <0>;
       tapping-term-ms = <TAPPING_TERM>;
-      bindings = <&kp RPAR>, <&kp RBKT>, <&kp LS(RBKT)>;
+      bindings = <&kp RPAR>, <&kp LS(RBKT)>, <&kp RBKT>;
+    };
+    TD_JJ: tap_dance_double_j_esc {
+      compatible = "zmk,behavior-tap-dance";
+      label = "tap_dance_double_j_esc";
+      #binding-cells = <0>;
+      tapping-term-ms = <TAPPING_TERM>;
+      bindings = <&kp J>, <&kp ESCAPE>;
     };
   };
 };

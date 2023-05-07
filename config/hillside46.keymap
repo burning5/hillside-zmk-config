@@ -19,10 +19,10 @@
 
     default_layer {
       bindings = <
-        &none &kp Q &kp W &kp E &kp R &kp T                                                                               &kp Y &kp U &kp I &kp O &kp P &none
-        &none &mt LSHIFT A &kp S &kp D &kp F &kp G                                                         &kp H &kp J &kp K &kp L &mt RSHIFT SEMICOLON &none
-        &none &mt LCTRL Z &mt LGUI X &mt LALT C &kp V &kp B &kp LC(C)                  &TD_CCP &kp N &kp M &mt RALT COMMA &mt RGUI DOT &mt RCTL SLASH &none
-                                   &kp ESCAPE &kp TAB &kp SPACE &mo 2                  &mo 1 &lt 3 ENTER &kp BACKSPACE &kp DELETE
+        __XX__  KP_Q__  KP_W__  KP_E__  KP_R__  KP_T__                    KP_Y__  KP_U__  KP_I__  KP_O__  KP_P__  __XX__
+        __XX__  MT_A__  KP_S__  KP_D__  KP_F__  KP_G__                    KP_H__  KP_J__  KP_K__  KP_L__  MT_SMC  __XX__
+        __XX__  MT_Z__  MT_X__  MT_C__  KP_V__  KP_B__  __XX__    TD_COP  KP_N__  KP_M__  MT_CMA  MT_DOT  MT_SLS  __XX__
+                                KP_UP_  KP_DW_  KP_SPC  MO_NUM    MO_SYM  LT_ENT  KP_LFT  KP_RIT
       >;
 
       sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
@@ -30,10 +30,10 @@
 
     symbols_layer {
       bindings = <
-        &none &kp EXCL &kp AT &kp HASH &kp DLLR &kp PRCNT                                            &kp CARET &kp AMPS &kp ASTRK &kp UNDER &kp EQUAL &none
-        &none &kp LSHIFT &kp GRAVE  &kp TILDE &TD_LBKT &kp LBKT                                     &kp RBKT &TD_RBKT &none &kp BSLH &kp RSHIFT &none
-        &none &kp LCTRL &kp LGUI &kp LALT &kp APOS &kp MINUS &none               &caps_word &kp KP_PLUS &kp DQT &kp RALT &kp RGUI &kp RCTRL &none
-                                              &trans &trans &trans &mo 4               &trans &trans &trans &trans
+        __XX__  KP_EXC  KP_AT_  KP_HSH  KP_DLD  KP_PCT                    KP_CRT  KP_AMP  KP_AST  KP_UND  KP_EQL  __XX__
+        __XX__  KP_SFT  KP_GRV  KP_TID  TD_LPR  KP_LBK                    KP_RBK  TD_RPR  __XX__  KP_BSL  KP_SFT  __XX__
+        __XX__  KP_CTL  KP_GUI  KP_ALT  KP_APS  KP_MIN  __XX__    CP_WRD  KP_PLS  KP_DQT  KP_ALT  KP_GUI  KP_CTL  __XX__
+                                _TRNS_  _TRNS_  _TRNS_  MO_CFG    _TRNS_  _TRNS_  _TRNS_  _TRNS_
       >;
 
       sensor-bindings = <&inc_dec_kp LC(LS(Z)) LC(Z)>;
@@ -41,10 +41,10 @@
 
     num_layer {
       bindings = <
-        &none &none &kp PSCRN &kp SLCK &kp PAUSE_BREAK &kp LNLCK                             &TD12 &TD7 &TD8 &TD9 &kp KP_MINUS &none
-        &none &kp LSHIFT &none &none &kp INSERT &kp HOME                                      &TD11 &TD4 &TD5 &TD6 &kp KP_PLUS &none
-        &none &kp LCTRL &kp LGUI &kp LALT &kp DELETE &kp END &kp LC(F5)            &kp LG(LS(S)) &TD10 &TD1 &TD2 &TD3 &kp KP_DOT &none
-                                            &trans &trans &trans &trans            &mo 4 &trans &trans &trans
+        __XX__  __XX__  KP_PSC  KP_SLK  KP_BRK  KP_NLK                    TD_AST  TD_7__  TD_8__  TD_9__  KP_MIN  __XX__
+        __XX__  KP_SFT  __XX__  __XX__  KP_INS  KP_HOM                    TD_SLS  TD_4__  TD_5__  TD_6__  KP_PLS  __XX__
+        __XX__  KP_CTL  KP_GUI  KP_ALT  KP_DEL  KP_END  __XX__    OS_SCP  TD_0__  TD_1__  TD_2__  TD_3__  KP_DOT  __XX__
+                                _TRNS_  _TRNS_  _TRNS_  _TRNS_    MO_CFG  _TRNS_  _TRNS_  _TRNS_
       >;
 
       sensor-bindings = <&inc_dec_kp LC(TAB) LC(LS(TAB))>;
@@ -52,10 +52,10 @@
 
     nav_layer {
       bindings = <
-        &none &none &none &none &kp END &none                      &kp HOME &kp PAGE_UP &none &none &none &none
-        &none &kp LSHIFT &none &kp PAGE_DOWN &none &none         &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
-        &none &kp LCTRL &kp LGUI &kp LALT &none &none &none           &none &none &none &none &none &none &none
-                                &trans &trans &trans &trans           &trans &trans &trans &trans
+        __XX__  __XX__  __XX__  __XX__  KP_END  __XX__                    KP_HOM  KP_PUP  __XX__  __XX__  __XX__  __XX__
+        __XX__  KP_SFT  __XX__  KP_PDN  __XX__  __XX__                    KP_LFT  KP_DN_  KP_UP_  KP_RIT  __XX__  __XX__
+        __XX__  KP_CLT  KP_GUI  KP_ALT  __XX__  __XX__  __XX__    __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
+                                _TRNS_  _TRNS_  _TRNS_  _TRNS_    _TRNS_  _TRNS_  _TRNS_  _TRNS_
       >;
 
       sensor-bindings = <&inc_dec_mwh SCROLL_DOWN SCROLL_UP>;
@@ -63,10 +63,10 @@
 
     config_layer {
       bindings = <
-        &none &none &none &none &none &bt BT_CLR                        &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none
-        &none &none &none &none &none &none                                                  &none &none &none &none &none &none
-        &none &none &none &none &none &none &kp N4                                      &none &none &none &none &none &none &none
-                           &none &none &none &trans             &trans &none &none &none
+        __XX__  __XX__  __XX__  __XX__  __XX__  BT_CLR                    BT_SE0  BT_SE1  BT_SE2  BT_SE3  BT_SE4  __XX__
+        __XX__  __XX__  __XX__  __XX__  __XX__  __XX__                    __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
+        __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__    __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
+                                __XX__  __XX__  __XX__  _TRNS_    _TRNS_  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
       >;
 
       sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
