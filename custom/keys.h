@@ -62,9 +62,9 @@
 
 #define KP_PUP &kp PAGE_UP
 #define KP_PDN &kp PAGE_DOWN
-#define KP_MIN &kp KP_MINUS
+#define KP_KMI &kp KP_MINUS
 #define KP_PLS &kp KP_PLUS
-#define KP_DOT &kp KP_DOT
+#define KP_DT_ &kp KP_DOT
 
 #define KP_UP_ &kp UP
 #define KP_RIT &kp RIGHT
