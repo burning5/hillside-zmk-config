@@ -1,10 +1,9 @@
-#include "global.h"
+#include "config.h"
 #include "mouse.h"
 
-#include "global.dtsi"
+#include "keys.h"
+
+#include "config.dtsi"
 #include "mouse.dtsi"
 #include "tapdances.dtsi"
-
 #include "combos.dtsi"
-
-#include "keys.h"

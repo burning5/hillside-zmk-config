@@ -107,11 +107,11 @@
 #define TD_RPR &TD_RBKT
 
 // layers
-#define MO_SYM &mo SYM
-#define MO_NUM &mo NUM
-#define MO_CFG &mo CFG
+#define MO_SYM &mo 1
+#define MO_NUM &mo 2
+#define MO_CFG &mo 4
 
-#define LT_ENT &lt NAV ENTER
+#define LT_ENT &lt 3 ENTER
 
 // bluetooth
 #define BT_CLR &bt BT_CLR
