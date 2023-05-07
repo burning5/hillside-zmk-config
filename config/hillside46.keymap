@@ -54,7 +54,7 @@
       bindings = <
         __XX__  __XX__  __XX__  __XX__  KP_END  __XX__                    KP_HOM  KP_PUP  __XX__  __XX__  __XX__  __XX__
         __XX__  KP_SFT  __XX__  KP_PDN  __XX__  __XX__                    KP_AL_  KP_AD_  KP_AU_  KP_AR_  __XX__  __XX__
-        __XX__  KP_CLT  KP_GUI  KP_ALT  __XX__  __XX__  __XX__    __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
+        __XX__  KP_CTL  KP_GUI  KP_ALT  __XX__  __XX__  __XX__    __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
                                 _TRNS_  _TRNS_  _TRNS_  _TRNS_    _TRNS_  _TRNS_  _TRNS_  _TRNS_
       >;
 
