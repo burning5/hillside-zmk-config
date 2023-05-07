@@ -87,7 +87,7 @@
 #define MT_DOT &mt RGUI DOT
 #define MT_SLS &mt RCTL SLASH
 
-// num fn
+// tap dances
 #define TD_1__ &TD1
 #define TD_2__ &TD2
 #define TD_3__ &TD3
@@ -101,10 +101,10 @@
 #define TD_SLS &TD11
 #define TD_AST &TD12
 
-// copy paste bracket
 #define TD_COP &TD_CCP
 #define TD_LPR &TD_LBKT
 #define TD_RPR &TD_RBKT
+#define TD_JJ_ &TD_JJ
 
 // layers
 #define MO_SYM &mo 1

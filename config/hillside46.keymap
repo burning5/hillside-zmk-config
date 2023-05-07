@@ -19,11 +19,15 @@
 
     default_layer {
       bindings = <
+        // __XX__  KP_Q__  KP_W__  KP_E__  KP_R__  KP_T__                    KP_Y__  KP_U__  KP_I__  KP_O__  KP_P__  __XX__
+        // __XX__  MT_A__  KP_S__  KP_D__  KP_F__  KP_G__                    KP_H__  TD_JJ_  KP_K__  KP_L__  MT_SMC  __XX__
+        // __XX__  MT_Z__  MT_X__  MT_C__  KP_V__  KP_B__  __XX__    TD_COP  KP_N__  KP_M__  MT_CMA  MT_DOT  MT_SLS  __XX__
+        //                         KP_UP_  KP_DW_  KP_SPC  MO_NUM    MO_SYM  LT_ENT  KP_LFT  KP_RIT
+
         __XX__  KP_Q__  KP_W__  KP_E__  KP_R__  KP_T__                    KP_Y__  KP_U__  KP_I__  KP_O__  KP_P__  __XX__
         __XX__  MT_A__  KP_S__  KP_D__  KP_F__  KP_G__                    KP_H__  KP_J__  KP_K__  KP_L__  MT_SMC  __XX__
-        __XX__  MT_Z__  MT_X__  MT_C__  KP_V__  KP_B__  __XX__    TD_COP  KP_N__  KP_M__  MT_CMA  MT_DOT  MT_SLS  __XX__
-                                // KP_UP_  KP_DW_  KP_SPC  MO_NUM    MO_SYM  LT_ENT  KP_LFT  KP_RIT
-                                KP_UP_  KP_DW_  KP_SPC  KP_Q__    KP_Q__  KP_LFT  KP_LFT  KP_RIT
+        __XX__  MT_Z__  MT_X__  MT_C__  KP_V__  KP_B__  __XX__    KP_J__  KP_N__  KP_M__  MT_CMA  MT_DOT  MT_SLS  __XX__
+                                KP_UP_  KP_DW_  KP_SPC  MO_NUM    MO_SYM  LT_ENT  KP_LFT  KP_RIT
       >;
 
       sensor-bindings = <&inc_dec_kp LC(LG(RIGHT)) LC(LG(LEFT))>;
