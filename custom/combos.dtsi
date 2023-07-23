@@ -3,17 +3,17 @@
     compatible = "zmk,combos";
     combo_esc {
       timeout-ms = <50>;
-      key-positions = <1 2>;
+      key-positions = <2 3>;
       bindings = <&kp ESC>;
     };
     combo_tab {
       timeout-ms = <50>;
-      key-positions = <13 14>;
+      key-positions = <14 15>;
       bindings = <&kp TAB>;
     };
     combo_backspace {
       timeout-ms = <50>;
-      key-positions = <9 10>;
+      key-positions = <20 21>;
       bindings = <&kp BACKSPACE>;
     };
     combo_delete {
