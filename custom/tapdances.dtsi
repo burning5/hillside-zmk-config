@@ -105,12 +105,5 @@
       tapping-term-ms = <TAPPING_TERM>;
       bindings = <&kp RPAR>, <&kp LS(RBKT)>, <&kp RBKT>;
     };
-    TD_JJ: tap_dance_double_j_esc {
-      compatible = "zmk,behavior-tap-dance";
-      label = "tap_dance_double_j_esc";
-      #binding-cells = <0>;
-      tapping-term-ms = <TAPPING_TERM>;
-      bindings = <&kp J>, <&kp ESCAPE>;
-    };
   };
 };
