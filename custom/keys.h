@@ -44,6 +44,7 @@
 #define KP_APS &kp APOS
 #define KP_MIN &kp MINUS
 #define KP_DQT &kp DQT
+#define KP_PIP &kp PIPE
 
 #define KP_PSC &kp PSCRN
 #define KP_SLK &kp SLCK
@@ -79,13 +80,13 @@
 #define OS_SCP &kp LG(LS(S))
 
 #define MT_A__ &mt LSHIFT A
-#define MT_SMC &mt RSHIFT SEMICOLON
+#define MT_SMC &mt LSHIFT SEMICOLON
 #define MT_Z__ &mt LCTRL Z
 #define MT_X__ &mt LGUI X
 #define MT_C__ &mt LALT C
-#define MT_CMA &mt RALT COMMA
-#define MT_DOT &mt RGUI DOT
-#define MT_SLS &mt RCTL SLASH
+#define MT_CMA &mt LALT COMMA
+#define MT_DOT &mt LGUI DOT
+#define MT_SLS &mt LCTL SLASH
 
 // tap dances
 #define TD_1__ &TD1
