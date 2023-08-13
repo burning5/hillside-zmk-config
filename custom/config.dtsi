@@ -1,10 +1,10 @@
 &lt {
-  flavor = "tap-preferred";
+  flavor = "balanced";
   tapping-term-ms = <TAPPING_TERM>;
 };
 
 &mt {
-  flavor = "tap-preferred";
+  flavor = "balanced";
   tapping-term-ms = <TAPPING_TERM>;
 };
 
