@@ -66,7 +66,7 @@
         __XX__  BT_SE0  BT_SE1  BT_SE2  BT_SE3  BT_SE4                    KP_F7_  KP_F8_  KP_F9_  KP_F12  __XX__  __XX__
         __XX__  __XX__  __XX__  __XX__  __XX__  __XX__                    KP_F4_  KP_F5_  KP_F6_  KP_F11  __XX__  __XX__
         __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  BT_CLA    __XX__  KP_F1_  KP_F2_  KP_F3_  KP_F10  __XX__  __XX__
-                                __XX__  __XX__  __XX__  _TRNS_    _TRNS_  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
+                                __XX__  __XX__  __XX__  _TRNS_    _TRNS_  __XX__  __XX__  __XX__
       >;
 
       sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
