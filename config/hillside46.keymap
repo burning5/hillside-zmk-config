@@ -41,9 +41,9 @@
 
     num_layer {
       bindings = <
-        __XX__  __XX__  KP_PSC  KP_SLK  KP_BRK  KP_NLK                    TD_7__  TD_8__  TD_9__  TD_AST  KP_MIN  __XX__
-        __XX__  KP_SFT  __XX__  __XX__  KP_INS  KP_HOM                    TD_4__  TD_5__  TD_6__  TD_SLS  KP_PLS  __XX__
-        __XX__  KP_CTL  KP_GUI  KP_ALT  KP_DEL  KP_END  __XX__    OS_SCP  TD_1__  TD_2__  TD_3__  TD_0__  KP_DT_  __XX__
+        __XX__  __XX__  KP_PSC  KP_SLK  KP_BRK  KP_NLK                    KP_7__  KP_8__  KP_9__  KP_AST  KP_MIN  __XX__
+        __XX__  KP_SFT  __XX__  __XX__  KP_INS  KP_HOM                    KP_4__  KP_5__  KP_6__  KP_SLS  KP_PLS  __XX__
+        __XX__  KP_CTL  KP_GUI  KP_ALT  KP_DEL  KP_END  __XX__    OS_SCP  KP_1__  KP_2__  KP_3__  KP_DT_  KP_0__  __XX__
                                 _TRNS_  _TRNS_  _TRNS_  _TRNS_    MO_CFG  _TRNS_  _TRNS_  _TRNS_
       >;
 
@@ -63,9 +63,9 @@
 
     config_layer {
       bindings = <
-        __XX__  __XX__  __XX__  __XX__  __XX__  BT_CLA                    BT_SE0  BT_SE1  BT_SE2  BT_SE3  BT_SE4  __XX__
-        __XX__  __XX__  __XX__  __XX__  __XX__  __XX__                    __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
-        __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__    __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
+        __XX__  BT_SE0  BT_SE1  BT_SE2  BT_SE3  BT_SE4                    KP_F7_  KP_F8_  KP_F9_  KP_F12  __XX__  __XX__
+        __XX__  __XX__  __XX__  __XX__  __XX__  __XX__                    KP_F4_  KP_F5_  KP_F6_  KP_F11  __XX__  __XX__
+        __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  BT_CLA    __XX__  KP_F1_  KP_F2_  KP_F3_  KP_F10  __XX__  __XX__
                                 __XX__  __XX__  __XX__  _TRNS_    _TRNS_  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
       >;
 

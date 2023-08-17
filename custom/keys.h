@@ -22,6 +22,30 @@
 #define KP_N__ &kp N
 #define KP_M__ &kp M
 
+#define KP_1__ &kp N1
+#define KP_2__ &kp N2
+#define KP_3__ &kp N3
+#define KP_4__ &kp N4
+#define KP_5__ &kp N5
+#define KP_6__ &kp N6
+#define KP_7__ &kp N7
+#define KP_8__ &kp N8
+#define KP_9__ &kp N9
+#define KP_0__ &kp N0
+
+#define KP_F1_ &kp F1
+#define KP_F2_ &kp F2
+#define KP_F3_ &kp F3
+#define KP_F4_ &kp F4
+#define KP_F5_ &kp F5
+#define KP_F6_ &kp F6
+#define KP_F7_ &kp F7
+#define KP_F8_ &kp F8
+#define KP_F9_ &kp F9
+#define KP_F10 &kp F10
+#define KP_F11 &kp F11
+#define KP_F12 &kp F12
+
 #define KP_ESC &kp ESCAPE
 #define KP_TAB &kp TAB
 #define KP_SPC &kp SPACE
@@ -45,6 +69,8 @@
 #define KP_MIN &kp MINUS
 #define KP_DQT &kp DQT
 #define KP_PIP &kp PIPE
+#define KP_SLS &kp KP_SLASH
+#define KP_AST &kp KP_ASTERISK
 
 #define KP_PSC &kp PSCRN
 #define KP_SLK &kp SLCK
@@ -87,20 +113,6 @@
 #define MT_CMA &mt LALT COMMA
 #define MT_DOT &mt LGUI DOT
 #define MT_SLS &mt LCTL SLASH
-
-// tap dances
-#define TD_1__ &TD1
-#define TD_2__ &TD2
-#define TD_3__ &TD3
-#define TD_4__ &TD4
-#define TD_5__ &TD5
-#define TD_6__ &TD6
-#define TD_7__ &TD7
-#define TD_8__ &TD8
-#define TD_9__ &TD9
-#define TD_0__ &TD10
-#define TD_SLS &TD11
-#define TD_AST &TD12
 
 #define TD_COP &TD_CCP
 #define TD_LPR &TD_LBKT
