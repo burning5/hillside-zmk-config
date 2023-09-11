@@ -117,7 +117,7 @@
 #define TD_COP &TD_CCP
 #define TD_LPR &TD_LBKT
 #define TD_RPR &TD_RBKT
-#define TD_JJ_ &TD_JJ
+#define TD_LAN &TD_LANG
 
 // layers
 #define MO_SYM &mo 1

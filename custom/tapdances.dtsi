@@ -21,5 +21,12 @@
       tapping-term-ms = <TAPPING_TERM>;
       bindings = <&kp RPAR>, <&kp LS(RBKT)>, <&kp RBKT>;
     };
+    TD_LANG: tap_dance_spc_lang {
+      compatible = "zmk,behavior-tap-dance";
+      label = "tap_dance_spc_lang";
+      #binding-cells = <0>;
+      tapping-term-ms = <TAPPING_TERM>;
+      bindings = <&kp SPACE>, <&kp RALT>;
+    };
   };
 };
