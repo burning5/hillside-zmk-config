@@ -26,7 +26,7 @@
       label = "tap_dance_spc_lang";
       #binding-cells = <0>;
       tapping-term-ms = <TAPPING_TERM>;
-      bindings = <&kp SPACE>, <&kp RALT>;
+      bindings = <&kp SPACE>, <&kp LANG1>;
     };
   };
 };
