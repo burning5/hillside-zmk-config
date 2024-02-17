@@ -7,15 +7,3 @@
   flavor = "balanced";
   tapping-term-ms = <TAPPING_TERM>;
 };
-
-&mmv {
-  delay-ms = <U_MOUSE_MOVE_DELAY>;
-  acceleration-exponent = <U_MOUSE_MOVE_EXPONENT>;
-  time-to-max-speed-ms = <U_MOUSE_MOVE_TIME>;
-};
-
-&mwh {
-  delay-ms = <U_MOUSE_SCROLL_DELAY>;
-  acceleration-exponent = <U_MOUSE_SCROLL_EXPONENT>;
-  time-to-max-speed-ms = <U_MOUSE_SCROLL_TIME>;
-};
