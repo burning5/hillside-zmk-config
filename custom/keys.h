@@ -70,7 +70,6 @@
 #define KP_DQT &kp DQT
 #define KP_PIP &kp PIPE
 #define KP_SLS &kp KP_SLASH
-#define KP_AST &kp KP_ASTERISK
 
 #define KP_PSC &kp PSCRN
 #define KP_SLK &kp SLCK
