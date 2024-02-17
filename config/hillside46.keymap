@@ -57,8 +57,6 @@
         __XX__  KP_CTL  KP_GUI  KP_ALT  __XX__  __XX__  __XX__    __XX__  __XX__  __XX__  __XX__  __XX__  __XX__  __XX__
                                 _TRNS_  _TRNS_  _TRNS_  _TRNS_    _TRNS_  _TRNS_  _TRNS_  _TRNS_
       >;
-
-      sensor-bindings = <&inc_dec_mwh SCROLL_UP SCROLL_DOWN>;
     };
 
     config_layer {

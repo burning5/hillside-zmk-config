@@ -4,6 +4,5 @@
 #include "keys.h"
 
 #include "config.dtsi"
-#include "mouse.dtsi"
 #include "tapdances.dtsi"
 #include "combos.dtsi"
