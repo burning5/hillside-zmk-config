@@ -6,13 +6,13 @@ manifest:
     #   url-base: https://github.com/nickconway
 
   projects:
-    # - name: zmk
-    #   remote: zmkfirmware
-    #   revision: main
-    #   import: app/west.yml
     - name: zmk
-      remote: nickconway
-      revision: dev
+      remote: zmkfirmware
+      revision: main
       import: app/west.yml
+    # - name: zmk
+    #   remote: nickconway
+    #   revision: dev
+    #   import: app/west.yml
   self:
     path: config
